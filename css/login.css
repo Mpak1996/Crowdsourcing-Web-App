@@ -1,0 +1,23 @@
+#login-form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#login-form h1 {
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+#login-form input {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+
+#login-form input[type=submit] {
+	border: 0;
+	background: #4367c4;
+	color: #fff;
+}
