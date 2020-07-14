@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Page</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #blue;
+}
+<
+</style>
+
+</head>
+<script  src="../js/xartis/jquery.min.js"></script>
+<script  src='../js/xartis/admin.js'></script>
+</head>
+<body style="background-color:#7EBCF3">
+
+<h2>User stats tables</h2>
+
+<table id="monthTable">
+  <tr>
+    <th>User Id</th>
+    <th>Jan</th>
+    <th>Feb</th>
+    <th>Mar</th>
+    <th>Apr</th>
+    <th>May</th>
+    <th>Jun</th>
+    <th>Jul</th>
+    <th>Aug</th>
+    <th>Sep</th>
+    <th>Oct</th>
+    <th>Nov</th>
+    <th>Dec</th>
+  </tr>
+</table>
+<br>
+<br>
+<table id="dayTable">
+  <tr>
+    <th>User Id</th>
+    <th>Sunday</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>WednesDay</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+  </tr>
+</table>
+<br><br>
+  <button name="button" id="btn" onclick="deleteData()" >DeleteData</button> <br>
+
+</body>
+</html>

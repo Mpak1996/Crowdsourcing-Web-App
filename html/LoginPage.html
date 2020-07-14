@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <title>Login Page</title>
+  <style>
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+</style>
+    <p title="TITLE"   style="text-align:center;font-family:Verdana;font-size:500%;" >
+      Log In </p>
+      <link rel="stylesheet" href="../css/Basic.css">
+      <link rel="stylesheet" href="../css/bootstrap.css">
+      <script  src="../js/xartis/jquery.min.js"></script> 
+      <script type="text/javascript" src="/js/LoginRegJS.js">  </script>
+      <script  src='../js/xartis/login.js'></script>
+  </head>
+  <body> <br> <br>
+<div class="center">
+    <label for="Username" style="font-size:300%;">Username</label> <br>
+    <input type="text" name="Userame" placeholder="Username" id="usrnm" style="font-size:200%;"><br> <br>
+    <label for="Pass" style="font-size:200%;">Password</label> <br>
+    <input type="password" name="Pass" placeholder="Password" id="pass" style="font-size:200%;"><br> <br>
+    <button type="button" name="button" id="btn" style="font-size:200%;" onclick="checkAuth()" class="btn btn-danger">Log In</button> <br>
+    <a href="/register" style="font-size:150%;" >You Don't have an Account?Sign Up! </a>
+    </div>
+
+  </body>
+</html>

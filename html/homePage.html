@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Locations Heatmap</title>
+
+<link rel="stylesheet" href="../css/register.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+<link href='https://fonts.googleapis.com/css?family=Roboto'
+	rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Exo'
+	rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="../css/leaflet.css" />
+<link rel="stylesheet" href="../css/leaflet-loader.css" />
+<script  src="../js/LoginRegJS.js"></script>
+<script  src="../js/xartis/jquery.min.js"></script>
+<script  src="../js/xartis/leaflet.js"></script>
+<script  src='../js/xartis/leaflet-loader.js'></script>
+<script  src='../js/xartis/leaflet-layerjson.min.js'></script>
+<script  src='../js/xartis/heatmap.js'></script>
+<script  src='../js/xartis/leaflet-heatmap.js'></script>s
+<!-- -->
+
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand">Google locations heatmap viewer</a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div align="left">
+				<button type="submit" name="button" id="adminButton" class="btn-lg btn-primary" onclick="AdminRedirect()">Admin Page</button>
+				<div align="right">
+					<br>
+					<button type="submit" id="logout-btn" class="btn-lg btn-defult">Logout</button>
+				</div>
+			</div>
+		</nav>
+     <br>
+		 <br>
+
+
+		<div class="d-flex">
+			<!--  <form>  -->
+				<input type="file" id="myFile" name="filename"> <br>
+				<button type="submit" id="submit-btn" class= "btn-block btn-info">Submit</button>
+				<button id="clear-btn" class= "btn-block col-5 btn-danger">Clear</button>
+			<!--   </form> -->
+		</div>
+		<hr>
+		<article>
+			<section>
+				<div id="map" style="height: 640px; border: 1px solid #AAA;"></div>
+				<div id="loader"></div>
+
+			</section>
+			<footer> </footer>
+			<hr />
+		</article>
+	</div>
+
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Our JS map script importing-->
+	<script type='text/javascript' src='../js/xartis/map.js'></script>
+	<
+	<!--<script type='text/javascript' src='../js/map/markers.js'></script> -->
+	<!-- -->
+</body>
+</html>
